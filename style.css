@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Rajdhani:wght@500&family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+
+footer{
+	color: white;
+	text-align: center;
+}
+
+
+
+body * {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+/*.container{
+	
+
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	width: 750px;
+	justify-content: space-around;
+	background-color: #d0d1d2bb;
+	padding: 20px;
+	box-shadow: 10px 5px 5px;
+
+}*/
+
+.container{
+	width: 60%; /*porcentagem referente a div onde ele tá inserido*/
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  	flex-wrap: wrap;
+    padding: 30px 35px;
+    background: #27191c;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+	color: #e0e4ce;
+	font-weight: 800;
+	
+}
+
+.container_title{
+	width: 100%;
+	text-align: center;
+	
+	font-weight: 800;
+	
+}
+
+.divBotao{
+	text-align: center;
+	margin: 5px;
+	display: flex;
+	justify-content: space-around;
+}
+
+button{
+
+	font-family: 'Noto sans', sans-serif;
+	box-shadow: 5px 2px 2px;
+	margin-top: 10px;
+	padding: 10px;
+	border-radius: 8px;
+	border: none;
+	background: #2d3839;
+	color: #e0e4ce;
+	box-shadow: 0px 10px 20px -12px #e0e4ce;
+	letter-spacing: 1px;
+	
+}
+
+button:hover{
+
+	cursor: pointer;
+}
+
+body{
+
+	background-image: url("bg1.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto;
+	
+
+}
+
+h2{
+
+	text-align: center;
+	
+}
+
+#container-pai{
+
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+}
+
+#botao-copiar{
+
+	align-self: center;
+
+}
+#container_textbox{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+#div-textarea{
+	text-align: center;
+}
